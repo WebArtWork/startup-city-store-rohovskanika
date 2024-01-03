@@ -1,0 +1,223 @@
+{
+	"title": "Welcome to waw Template",
+	"description": "description",
+	"keywords": "keywords",
+	"prefix": "/rohovskanika",
+	"picture": "picture",
+	"author": "author",
+	"moderators": [],
+	"scss": "scss/index.scss",
+	"variables": {
+		"primary_color": "#a5124f",
+		"ceo_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+		"logo_text":"KPCITY",
+    "intro_bg": "/rohovskanika/img/two-bg.jpg",
+    "intro_mini_bg1":"/rohovskanika/img/flo1.jpg",
+    "intro_mini_bg2":"/rohovskanika/img/flo2.jpg",
+    "intro_mini_bg3":"/rohovskanika/img/flo3.jpg",
+    "land_decor": "1",
+    "intro_decor":"1",
+		"land_head_text": "Kamianets-Podilskiy",
+		"land_head_text2": "Welcome to our universal web portal where you can find all the latest news",
+		"contact_text":" Don't forget to subscribe to our newsletters and social networks",
+		"email_text": "ceo@webart.work",
+		"link_instagram": "https://instagram.com/kpcity2023?igshid=OGQ5ZDc2ODk2ZA==",
+		"link_facebook": "https://www.facebook.com/profile.php?id=100094157589278",
+		"link_telegram": "https://t.me/wawkpcity",
+		"page1_text": "Kamianets-Podilskiy",
+		"page2_text": "Kamianets-Podilskiy",
+		"page3_text": "Kamianets-Podilskiy",
+		"page4_text": "Kamianets-Podilskiy",
+		"page5_text": "Kamianets-Podilskiy",
+		"page6_text": "Kamianets-Podilskiy",
+		"thumb_people1": "rohovskanika/img/deputy_portfolio.jpg",
+		"thumb_people2": "rohovskanika/img/laywar_potrtfolio.jpg",
+		"thumb_people3": "rohovskanika/img/rieltor-portfolio.jpg",
+		"thumb_people4":"rohovskanika/img/jurnalist_portfolio.jpg",
+		"name_people1": "Mark Wilson",
+		"name_people2": "Catherine",
+		"name_people3": "JessieCa",
+		"name_people4": "Andrew Berti",
+		"role_1": "Deputy",
+		"role_2": "Laywer",
+		"role_3": "Rieltor",
+		"role_4": "Journalist",
+    "contact_1":"+38012345678",
+    "contact_2":"+38012345678",
+    "contact_3":"+38012345678",
+    "contact_4":"+38012345678"
+	},
+  "variablesInfo": [
+    { "variable": "primary_color", "description": "White color in whole page", "thumb": "/rohovskanika/variable/primary_color.png" },
+    { "variable": "ceo_text", "description": "Еext at the bottom of the page", "thumb": "/rohovskanika/variable/ceo_text.png" },
+    { "variable": "intro_bg", "description": "Background picture", "thumb": "/rohovskanika/variable/intro_bg.png" },
+    { "variable": "intro_mini_bg", "description": "Small pictures in objects", "thumb": "/rohovskanika/variable/intro_mini_bg1,2,3.png" },
+    { "variable": "land_decor", "description": "You can choose one of three arrows", "thumb": "/rohovskanika/variable/land_decor.png" },
+    { "variable": "intro_decor", "description": "You can choose the location of objects", "thumb": "/rohovskanika/variable/intro_decor.png" },
+    { "variable": "contact_text", "description": "Text", "thumb": "/rohovskanika/variable/contact_text.png" },
+    { "variable": "link_instagram", "description": "Links to social networks", "thumb": "/rohovskanika/variable/link_.png" },
+    { "variable": "thumb_people1", "description": "People card", "thumb": "/rohovskanika/variable/people_role_contact.png" },
+    { "variable": "role_1", "description": "Role", "thumb": "/rohovskanika/variable/people_role_contact.png" },
+    { "variable": "contact_1", "description": "Contact number", "thumb": "/rohovskanika/variable/people_role_contact.png" }
+    ],
+  
+
+	"store": {
+		"name": "Store Name",
+		"description": "Store Description"
+	},
+	"footer": {
+"plans": [
+      {
+        "id": "/product",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "product"
+      },
+      {
+        "id": "/product",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "product"
+      },
+      {
+        "id": "/product",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "product"
+      }
+    ],
+    "services": [
+      {
+        "id": "/service",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "service"
+      },
+      {
+        "id": "/service",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "service"
+      },
+      {
+        "id": "/service",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "service"
+      }
+    ],
+    "articles": [
+      {
+        "id": "/article",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "article"
+      },
+      {
+        "id": "/article",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "article"
+      },
+      {
+        "id": "/article",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "article"
+      }
+    ],
+	 "cars": [
+      {
+        "id": "/car",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "car"
+      },
+      {
+        "id": "/car",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "car"
+      },
+      {
+        "id": "/car",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "car"
+      }
+    ],
+	 "realestates": [
+      {
+        "id": "/realestate",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "realestate"
+      },
+      {
+        "id": "/realestate",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "realestate"
+      },
+      {
+        "id": "/realestate",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "realestate"
+      }
+    ]
+  },
+	"tags": [
+		{
+			"category": {
+				"group": "article"
+			},
+			"name": "Tag one"
+		},
+		{
+			"category": {
+				"group": "plan"
+			},
+			"name": "Tag one"
+		},
+		{
+			"category": {
+				"group": "car"
+			},
+			"name": "Tag one"
+		},
+    {
+			"category": {
+				"group": "realestate"
+			},
+			"name": "Tag one"
+		},
+    {
+			"category": {
+				"group": "service"
+			},
+			"name": "Tag one"
+		}
+	],
+  "groups": [
+		{
+			"categories": [
+				{
+					"name": "Category Name",
+					"tags": [
+						{
+							"name": "Tag Name"
+						}
+					]
+				}
+			]
+		}
+	]
+}

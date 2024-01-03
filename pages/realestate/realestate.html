@@ -1,0 +1,28 @@
+<div class="container-new">
+	<div class="row" style="text-align:center;">
+		<h1>{{{translate("rohovskanika.Realestates")}}}</h1>
+		<p>
+			{{{variables.page3_text}}}
+		</p>
+
+	</div>
+</div>
+
+<!-- Page Sample Section -->
+<section id="page-sample">
+	<div class="container content-section text-center">
+		<div class="row">
+			<h2 class="text-center">{{{realestate.name}}}</h1>
+			</h2>
+			<div class="col-lg-8 col-lg-offset-2">
+				<a href="/realestate/{{{realestate.id}}}">
+					<div class="card">
+						<img src="{{{realestate.thumb}}}" alt="{{{realestate.name}}}" class="img-rounded">
+						<h5 class="card-title">{{{realestate.price}}}</h5>
+						<h4>{{{realestate.description}}}</h4>
+					</div>
+			</div>
+			</a>
+		</div>
+	</div>
+</section>

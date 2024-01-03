@@ -1,0 +1,226 @@
+<header class="intro">
+	<div class="intro-body">
+		<div class="container">
+			{% if variables.intro_decor === "1" %}
+			<div class="row">
+				<div class="col-md-6">
+					<h1 class="brand-heading">{{{variables.land_head_text}}}</h1>
+					<p class="intro-text">
+						{{{variables.land_head_text2}}}
+					</p>
+				</div>
+				<div class="col-md-6">
+				<div class="c"></div>
+				<div class="s"></div>
+				<div class="b"></div>
+			</div>
+		</div>
+		{% endif %}
+		{% if variables.intro_decor === "2" %}
+		<div class="container text-center">
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="brand-heading1">{{{variables.land_head_text}}}</h1>
+				<p class="intro-text1">
+					{{{variables.land_head_text2}}}
+				</p>
+			</div>
+			<div class="col-md-6">
+			<div class="i"></div>
+		</div>
+	</div>
+		</div>
+	{% endif %}
+	</div>
+	</div>
+	</div>
+</header>
+<section id="page-sample">
+	{% if articles.length %}
+	<div class="polosa">
+	<div class="container content-section text-center">
+			<h3>{{{translate("rohovskanika.Articles")}}}</h3>
+			<div class="row">
+				{% for article in articles %}
+				<div class="col-md-4">
+					<a href="/articles">
+						<div class="card">
+							<img src="{{{article.thumb}}}" alt="{{{article.name}}}" class="img-rounded">
+							<div class="card-body">
+								<h4 class="card-title">{{{articles.name}}}</h4>
+								<p class="text-as">{{{article.short}}} </p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% if plans.length %}
+	<div class="polosa">
+	<div class="container content-section text-center">
+		<h3>{{{translate("rohovskanika.Plans")}}}</h3>
+		<div class="row">
+			{% for plan in plans %}
+			<div class="col-md-4">
+				<a href="/plans">
+					<div class="card">
+						<img src="{{{plan.thumb}}}" alt="{{{plan.name}}}" class="img-rounded">
+						<div class="card-body">
+							<h4 class="card-title">{{{plans.name}}}</h4>
+							<p class="text-as">{{{plan.short}}}</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	</div>
+	{% endif %}
+	{% if cars.length %}
+	<div class="polosa">
+		<div class="container content-section text-center">
+			<h3>{{{translate("rohovskanika.Cars")}}}</h3>
+			<div class="row">
+				{% for car in cars %}
+				<div class="col-md-4">
+					<a href="/cars">
+						<div class="card">
+							<img src="{{{car.thumb}}}" alt="{{{car.name}}}" class="img-rounded">
+							<div class="card-body">
+								<h5 class="card-title">{{{cars.name}}}</h5>
+								<p class="text-sas">{{{car.short}}} </p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% if realestates.length %}
+	<div class="polosa">
+		<div class="container content-section text-center">
+			<h3>{{{translate("rohovskanika.Realestates")}}}</h3>
+			<div class="row">
+				{% for realestate in realestates %}
+				<div class="col-md-4">
+					<a href="/realestates">
+						<div class="card">
+							<img src="{{{realestate.thumb}}}" alt="{{{realestate.name}}}" class="img-rounded">
+							<div class="card-body">
+								<h5 class="card-title">{{{realestates.name}}}</h5>
+								<p class="text-sas">{{{realestate.short}}} </p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+</section>
+	<!-- TEAM -->
+	<div class="polosa">
+	<section id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="section-title">
+						<h3 class="team-h2">{{{translate("rohovskanika.People are ready to help you")}}}</h3>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-thumb">
+						<div class="team-image">
+							<img src="{{{variables.thumb_people1}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people1}}}</h3>
+							<span>{{{variables.role_1}}}</span>
+							<span>{{{variables.contact_1}}}</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-thumb">
+						<div class="team-image">
+							<img src="{{{variables.thumb_people2}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people2}}}</h3>
+							<span>{{{variables.role_2}}}</span>
+							<span>{{{variables.contact_2}}}</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-thumb">
+						<div class="team-image">
+							<img src="{{{variables.thumb_people3}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people3}}}</h3>
+							<span>{{{variables.role_3}}}</span>
+							<span>{{{variables.contact_3}}}</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-thumb">
+						<div class="team-image">
+							<img src="{{{variables.thumb_people4}}}" class="img-responsive" alt="">
+						</div>
+						<div class="team-info">
+							<h3>{{{variables.name_people4}}}</h3>
+							<span>{{{variables.role_4}}}</span>
+							<span>{{{variables.contact_4}}}</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+</div>
+	<!-- Contact Section -->
+	<div class="polosa">
+	<section id="contact">
+		<div class="container content-section text-center">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h3>{{{variables.logo_text}}}</h3>
+					<p>
+						{{{variables.contact_text}}}
+					</p>
+					<p>
+						<i><a href="mailto:waw@gmail.com" style="border-bottom:1px dashed #ccc;">{{{variables.email_text}}}</a></i>
+					</p>
+					<ul class="list-inline banner-social-buttons">
+						<li>
+							<a href="{{{variables.link_telegram}}}" class="btn btnghost btn-lg"><span
+									class="network-name">Telegram</span></a>
+						</li>
+						<li>
+							<a href="{{{variables.link_facebook}}}"
+								class="btn btnghost btn-lg"><span class="network-name">Facebook</span></a>
+						</li>
+						<li>
+							<a href="{{{variables.link_instagram}}}"
+								class="btn btnghost btn-lg"><span class="network-name">Instagram</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>

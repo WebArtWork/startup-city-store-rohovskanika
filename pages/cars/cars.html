@@ -1,0 +1,50 @@
+<div class="container-new">
+	<div class="row" style="text-align:center;">
+		<h1>{{{translate("rohovskanika.Car")}}}</h1>
+		<p>
+			{{{variables.page3_text}}}
+		</p>
+		{% if variables.land_decor === "1" %}
+		<a href="#page-sample" class="btn btn-circle page-scroll">
+			<i class="fa fa-angle-double-down animated"></i>
+		</a>
+		{% endif %}
+		{% if variables.land_decor === "2" %}
+		<a href="#page-sample" class="btn btn-circle page-scroll">
+			<img src="/rohovskanika/img/free-icon-down-arrow-656777.png">
+		</a>
+		{% endif %}
+		{% if variables.land_decor === "3" %}
+		<a href="#page-sample" class="btn btn-circle page-scroll">
+			<img src="/rohovskanika/img/free-icon-down-chevron-8213476.png">
+		</a>
+		{% endif %}
+	</div>
+</div>
+
+<!-- Page Sample Section -->
+<section id="page-sample">
+	<div class="polosar">
+		<div class="container content-section text-center">
+			<div class="row">
+				<h3 class="text-center">{{{translate("rohovskanika.Check out new cars")}}}</h3>
+				{% for car in cars %}
+				<div class="img-slider">
+					<div class="col-md-4">
+						<a href="/car/{{{car.id}}}">
+							<div class="card">
+								<img src="{{{car.thumb}}}" alt="{{{car.name}}}"   class="img-rounded">
+								<div class="card-body">
+									<h5 class="card-title">{{{car.price}}}</h5>
+									<h5 class="card-title">{{{car.name}}}</h5>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				{% endfor %}
+				<br />
+			</div>
+		</div>
+	</div>
+</section>

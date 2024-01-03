@@ -1,0 +1,153 @@
+{
+	"title": "Cool Title",
+	"website": {
+		"telegram": "https://t.me/wawceo"
+	},
+	"plans": [
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "product"
+		},
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "product"
+		},
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "product"
+		}
+	],
+	"businesses": [
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "product"
+		},
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "product"
+		},
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "product"
+		}
+	],
+	"services": [
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "service"
+		},
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "service"
+		},
+		{
+			"id": "321321321321",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "service"
+		}
+	],
+	"articles": [
+		{
+			"id": "321321321321",
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "article"
+		},
+		{
+			"id": "321321321321",
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "article"
+		},
+		{
+			"id": "321321321321",
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "article"
+		}
+	],
+	"cars": [
+		{
+			"id": "/car",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        	"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "car"
+		},
+		{
+			"id": "/car",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        	"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "car"
+		},
+		{
+			"id": "/car",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        	"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "car"
+		}
+	],
+	"realestates": [
+		{
+			"id": "/realestate",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        	"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "realestate"
+		},
+		{
+			"id": "/realestate",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        	"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "realestate"
+		},
+		{
+			"id": "/realestate",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        	"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "realestate"
+		}
+	]
+}

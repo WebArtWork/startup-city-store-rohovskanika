@@ -1,0 +1,30 @@
+{
+	"name": "KP.city",
+	"title": "KP City",
+	"description": "У нас ви знайдете всю необхідну інформацію про плани будівництва об'єктів у вашому місті. Крім того, у нас є широкий вибір статей, які охоплюють події, що відбуваються у вашому місті та в країні в цілому.Якщо вас цікавить інформація про відомих депутатів, бізнесменів, рієлторів та юристів, ви потрапили за адресою. Ми забезпечуємо детальну інформацію про цих фахівців, їхні досягнення, ділові навички та досвід.",
+	"image": "https://kpcity.webart.work/template/img/banner_bg.jpg",
+	"license": "MIT",
+	"icon": "/wcharge/img/logo.png",
+	"prefix": "kpCity",
+	"port": 8000,
+	"session": true,
+	"mongo": {
+		"host": "127.0.0.1",
+		"port": 27017,
+		"db": "kpcity"
+	},
+	"modules": {
+		"template": "waw",
+		"core": "waw",
+		"sem": "waw"
+	},
+	"dependencies": {
+		"mongoose": "*"
+	},
+	"user": {
+		"is": {
+			"admin": "ceo@webart.work"
+		}
+	},
+	"land": "kpcity.webart.work"
+}

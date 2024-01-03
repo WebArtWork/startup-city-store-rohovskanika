@@ -1,0 +1,24 @@
+{
+	"name": "article",
+	"article": {
+		"id": "/article1",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+		"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+		"thumb": "https://neryxomka.com/template/img/welcome.png",
+		"name": "Article Name"
+	},
+	"groups": [
+		{
+			"categories": [
+				{
+					"name": "Category Name",
+					"tags": [
+						{
+							"name": "Tag Name"
+						}
+					]
+				}
+			]
+		}
+	]
+}
